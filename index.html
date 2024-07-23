@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="node_modules/animate.css/animate.min.css" rel="stylesheet">
+    <link href="node_modules/aos/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="main22.css">
+    <title>Portofoliu tvv3</title>
+</head>
+<body>
+    <div class="headerdiv" id="headerdiv">
+    <header><h1 data-aos="zoom-in-up">Portofoliul meu</h1>
+        <h2>Proiecte PHP si C#  </h2>
+        <div class="butoaneheader" data-aos="zoom-in-up">
+            <button> <a href="#main">Despre proiecte</a></button>
+            <button> <a href="#footerdiv"><span>Contacteaza-ma</span></a></button>
+            <!--button>Despre mine</button-->
+         
+        </div>
+    </header>
+    </div>
+    <main id="main">
+           <h2>Despre proiecte</h2>
+         <section>
+            <h3>1. Proiect Laravel Gym - versiunea Laravel 6 </h2>
+            <article>
+                <div class="mainimg" data-aos="fade-right">
+                <img src="imagini/proj1/main.jpg">
+                </div>
+                <p class="subtitlu">Descrierea:</p>
+                <p class="descrierea">
+                    Proiectul Laravel Gym implementeaza in versiunea 6 a framework-ului Laravel managementul unei sali de gimnastica. 
+                    Pe pagina principala apar mentionate abonamentele si preturile (static). Exista pagina antrenorilor in care apare imaginea si descrierea acestora. 
+                    Cele doua pagini sunt vizibile oricui. Pagina de client este accesibila doar dupa logarea cu un cont de client.
+                    Paginile de administrare, administrare angajati, inregistrare angajat nou sunt disponibile doar pentru administrator.
+                    Imaginile folosite in proiect pentru testare au fost luate de pe site-ul de fotografii gratuite pexels 
+                    si nu apar nici in printscreen-urile de mai jos nici in github repo. 
+                    Acest proiect este disponibil pe contul de github mentionat mai jos, fara folderul vendor.
+                </p>
+                <p class="subtitlu">Alte imagini din acest proiect:</p>
+                <div class="imagini" data-aos="zoom-in">
+                    <img src="imagini/proj1/1.jpg">
+                    <img src="imagini/proj1/2.jpg">
+                    <img src="imagini/proj1/3.jpg">
+                    <img src="imagini/proj1/4.jpg">
+                    <img src="imagini/proj1/5.jpg">
+                </div>
+            </article>
+        </section>
+
+        <section>
+            <h3>2. Proiect Sudoku C# </h2>
+            <article>
+                <div class="mainimg" data-aos="fade-left">
+                <img src="imagini/proj2/main.jpg">
+                </div>
+                <p class="subtitlu">Descrierea:</p>
+                <p class="descrierea">Proiectul Sudoku este realizat in C# si windows forms. Initial grila este goala. Se apasa pe unul dintre cele 2 butoane 
+                     pentru a obtine o grila partiala care trebuie completata. O data cu grila partiala se salveaza intr-o variabila grila completa si ulterior 
+                     la apasarea unei cifre (cu butoanele 1-9 sau prin introducerea de la tastatura) daca in solutia finala cifra este corecta pe acea pozitie se 
+                     coloreaza in albastru inchis, altfel cifra se coloreaza in rosu. Grila partiala initiala va bloca casutele completate automat astfel incat ele vor fi disabled.
+                     Prin apasarea butonului "Afiseaza Solutia" se completeaza toata grila conform utimei solutii asociate grilei partiale afisate pe ecran.
+                     Pentru a folosi butoanele 1-9 sau stergerea cu butonul X trebuie selectata intai, prin click, casuta cu pozitia in grila si apoi click pe butonul
+                     respectiv. Algoritmul folosit determina intai o grila completa de sudoku si apoi incearca sa gaseasca o grila partiala asociata solutiei complete care sa aiba 
+                     un anumit numar de cifre completate si care sa fie rezolvabila. Daca nu se gaseste intr-un anumit numar de pasi 
+                     (aprox un minut) solutiile - partiala si completa - atunci grila va ramane goala si trebuie apasat iar pe butonul care genereaza grila.
+                     In casute este permisa doar scrierea unei cifre de la 1 la 9. 
+                </p>
+                <!--p class="subtitlu">Alte imagini din acest proiect:</p>
+                <div class="imagini" data-aos="zoom-in">
+                    <img src="imagini/proj2/1.jpg">
+                    <img src="imagini/proj2/2.jpg">
+                    <img src="imagini/proj2/3.jpg">
+                    <img src="imagini/proj2/4.jpg">
+                </div-->
+            </article>
+        </section>
+
+        <section>
+            <h3>3. Proiect Laravel Sala Gym - versiunea Laravel 8 </h2>
+            <article>
+                <div class="mainimg" data-aos="fade-right">
+                <img src="imagini/proj3/main.jpg">
+                </div>
+                <p class="subtitlu">Descrierea:</p>
+                <p class="descrierea">
+                    Proiectul Laravel Sala Gym implementeaza in versiunea 8 a framework-ului Laravel managementul unei sali de gimnastica, imbunatatind versiunea anterioara (6). 
+                    Pe pagina principala apar mentionate abonamentele si preturile (static). Exista pagina antrenorilor in care apare imaginea si descrierea acestora. 
+                    Cele doua pagini sunt vizibile oricui. Pagina de client este accesibila doar dupa logarea cu un cont de client.
+                    Paginile de administrare, administrare angajati, inregistrare angajat nou sunt disponibile doar pentru administrator.
+                    Imaginile folosite in proiect pentru testare au fost luate de pe site-ul de fotografii gratuite pexels 
+                    si nu apar in printscreen-urile de mai jos. 
+                    Pentru a crea un cont de admin se foloseste optiunea register si apoi se schimba drepturile(rolurile) in admin din phpmyadmin.
+                    Pentru a inregistra un angajat se foloseste un cont de administrator si se opereaza in register angajati.
+                    Pentru a inregistra un client se foloseste optiunea register care creeaza implicit un cont de user de tipul client.
+                
+                </p>
+                <p class="subtitlu">Alte imagini din acest proiect:</p>
+                <div class="imagini" data-aos="zoom-in">
+                    <img src="imagini/proj3/1.jpg">
+                    <img src="imagini/proj3/2.jpg">
+                    <img src="imagini/proj3/3.jpg">
+                    <img src="imagini/proj3/4.jpg">
+                    <img src="imagini/proj3/5.jpg">
+                    
+                </div>
+            </article>
+        </section>
+
+        <section>
+            <h3>4. Proiect Delivery App - versiunea Laravel 9 </h2>
+            <article>
+                <div class="mainimg" data-aos="fade-right">
+                <img src="imagini/proj4/main.jpg">
+                </div>
+                <p class="subtitlu">Descrierea:</p>
+                <p class="descrierea">
+                    Proiectul Delivery App este realizat in Laravel 9 si implementeaza managementul unei firme de livrari care are angajati un numar de soferi 
+                    care duc de la restaurante la clienti diverse comenzi. Aplicatia este privata astfel ca ea afiseaza in prima pagina butonul de login.
+                    Administratorul este cel care introduce restaurantele si soferii in sistem. Exista in pagina de home a administratorului taburi pentru 
+                    comenzi , restaurante , soferi, inregistrare user nou si alocare rol pentru un user deja creat.
+                    In functie de rolul utilizatorului creat pagina home a aplicatiei se modifica. Astfel ca pentru un restaurant 
+                    se vor vedea comenzile acelui restaurant cu posibilitatea de a crea o noua comanda (in descrierea comenzii sunt trecute detaliile despre clientul final si produse, preturi etc)
+                    Soferul logat va vedea o serie de date referitoare la activitatea sa, precum si comenzile nou create care nu au fost alocate altui sofer si pot fi preluate de acesta.
+                    De asemenea soferul poate seta o serie de statusuri comenzii preluate pana la statusul de comanda finalizata.
+                    Administratorul urmareste in pagina sa (home) activitatea soferilor si a restaurantelor si comenzile noi. 
+                    O problema intalnita in acest proiect este actualizarea  refreshul automat al datelor astfel incat sa se actualizeze automat 
+                    statusurile comenzilor si alte date (fluxul aplicatiei) fara a fi nevoie de refresh. Un astfel de sistem de notificare de exemplu atunci cand apare o comanda noua 
+                    este in afara scopului proiectului de fata dar s-ar putea face cu un alt server utilizat pentru managementul notificarilor. 
+
+                </p>
+                <p class="subtitlu">Alte imagini din acest proiect:</p>
+                <div class="imagini" data-aos="zoom-in">
+                    <img src="imagini/proj4/1.jpg">
+                    <img src="imagini/proj4/2.jpg">
+                    <img src="imagini/proj4/3.jpg">
+                    <img src="imagini/proj4/4.jpg">
+                    <img src="imagini/proj4/5.jpg">
+
+                    <img src="imagini/proj4/6.jpg">
+                    <img src="imagini/proj4/7.jpg">
+                    <img src="imagini/proj4/8.jpg">
+                    <img src="imagini/proj4/9.jpg">
+                    <img src="imagini/proj4/10.jpg">
+                    
+                </div>
+            </article>
+        </section>
+        <section>
+            <h3>5. Proiect Agenda Web - php </h2>
+            <article>
+                <div class="mainimg" data-aos="fade-right">
+                <img src="imagini/proj5/main.jpg">
+                </div>
+                <p class="subtitlu">Descrierea:</p>
+                <p class="descrierea">
+                    Proiectul Agenda Web este realizat in php obiectual si mysql, html, css, javascript. 
+                    In primul ecran este solicitata o parola de acces, agenda apartinand unui singur
+                     utilizator/grup de utilizatori care doreste sa aiba acces de oriunde la baza de date asociata agendei. Nu a fost necesar in acest proiect sa se faca logarea cu useri si roluri.
+                     Se introduc site-urile si canalele asociate site-urilor si exista pagini de cautare/afisare a site-urilor si canalelor din agenda.
+                     Agenda web este un site responsive. 
+                </p>
+                <p class="subtitlu">Alte imagini din acest proiect:</p>
+                <div class="imagini" data-aos="zoom-in">
+                    <img src="imagini/proj5/1.jpg">
+                    <img src="imagini/proj5/2.jpg">
+                    
+                </div>
+            </article>
+        </section>
+
+    </main>
+    <div class="footerdiv" id="footerdiv">
+        <footer>
+            <p>O parte din proiectele descrise mai sus sunt disponibile pe contul de github: <br>
+                  <button data-aos="zoom-in-up"> <a href="https://github.com/tvv3">tvv3</a></button><br>
+                 Pentru mai multe detalii puteti sa ma contactati la adresa de email.  </p>
+            <!--div class="butoanefooter">
+                <button>Arata email</button>
+                <button>Despre mine</button>
+                <button>Contacteaza-ma</button>
+            </div-->
+        </footer>
+        </div>
+
+        <script src="node_modules/aos/dist/aos.js"></script>
+        <script>
+            AOS.init();
+          </script>
+</body>
+</html>
